@@ -10,7 +10,7 @@ int main() {
 	printf("Gib nacheinander 3 Zahlen ein\n");
 	printf("Bitte Zahl eins Eingeben(n) ");
 	scanf("%i", &a);
-
+	 
 	printf("Sie haben bissher Eingegeben %i %i %i\n", a, b, c);
 
 	printf("Bitte Zahl zwei Eingeben(n) ");
