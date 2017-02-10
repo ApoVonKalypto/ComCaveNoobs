@@ -11,12 +11,12 @@ int main() {
 	printf("Bitte Zahl eins Eingeben(n) ");
 	scanf("%i", &a);
 	 
-	printf("Sie haben bissher Eingegeben %i %i %i\n", a, b, c);
+	printf("Sie haben bisher Eingegeben %i %i %i\n", a, b, c);
 
 	printf("Bitte Zahl zwei Eingeben(n) ");
 	scanf("%i", &b);
 
-	printf("Sie haben bissher Eingegeben %i %i %i\n", a, b, c);
+	printf("Sie haben bisher Eingegeben %i %i %i\n", a, b, c);
 
 	printf("Bitte Zahl drei Eingeben(n) ");
 	scanf("%i", &c);
