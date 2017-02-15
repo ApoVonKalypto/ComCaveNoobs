@@ -4,17 +4,17 @@
 
 netto() {
 
-	int brutto;
-	float mwst = 0.00, erg = 0.00;
+	float brutto;
+	float mwst = 0, erg = 0.00;
 	printf("Bitte geben die ihren Brutto Betrag ein: \n");
-	scanf("%i", &brutto);
+	scanf("%f", &brutto);
 	printf("Bitte geben die ihre Umsatzsteuer ein: \n");
-	scanf("%i", &mwst);
+	scanf("%f", &mwst);
 
 	erg = brutto / (1 + mwst);
 
-	printf("Bruttobetrag\t%i\n"
-		"Steuersatz\t%f\n"
+	printf("Bruttobetrag\t%.2f\n"
+		"Steuersatz\t%.0f\n"
 		"Nettobetrag\t%.2f\n", brutto, mwst, erg);
 
 
