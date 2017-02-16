@@ -27,12 +27,13 @@ int main()
 	{	//brutto =betrag *1.07
 		brutto = betrag * 1.07;
 		//Ausgabe von verminderten Steuersatz
-		printf("Verminderter Steuersatz Lebensmittel = %5.2f\",betrag);
+		printf("Verminderter Steuersatz Lebensmittel = %5.2f", betrag);
 
 	}//WENN Auswahl ==107|| auswahl =75
 	else if (auswahl == 107 || auswahl == 75)
 	{
 		brutto = betrag *1.19;
+		//Ausgabe von normalem Steuersatz
 		printf("normaler Steuersatz Kleidung Gesammt = %5.2f", betrag);
 	
 	}//ENDE WENN
